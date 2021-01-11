@@ -23,7 +23,7 @@ Amplify.configure(awsExports);
 amplify codegen models
 
 ```
-3. In App.js use DataStore in order to query for all the titles of the songs and display them on the page. 
+4. In App.js use DataStore in order to query for all the titles of the songs and display them on the page. 
 
 Activity 3
 
