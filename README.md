@@ -27,7 +27,7 @@ Fork this repository and then clone it into your local machine.
 
 ### `npm install`
 
-This will install all dependencies you need to run the app. It is recomended to run an npm install whenever you switch branches as there may be additional dependecies to insall.
+This will install all dependencies you need throughout the workshop.
 
 ### `npm start`
 
