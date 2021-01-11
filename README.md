@@ -21,9 +21,16 @@ Install via curl windows:
 curl -sL https://aws-amplify.github.io/amplify-cli/install-win -o install.cmd && install.cmd
 ```
 
+## Branches
+main - this is the starting point
+final - this is all of the activities solved
+activity2Solved - solution for activity 2
+activity3Solved - solution for activity 3
+activity4Solved - solution for activity 4
+
 ## Getting Started
 
-Fork this repository and then clone it into your local machine.
+Clone this Repository into your local machine
 
 ### `npm install`
 
