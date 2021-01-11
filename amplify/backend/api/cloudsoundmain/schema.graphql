@@ -1,0 +1,7 @@
+type Song @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String
+  mp3: String
+  artist: String
+}
+ 
