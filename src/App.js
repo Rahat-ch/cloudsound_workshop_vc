@@ -4,7 +4,6 @@ import { DataStore } from '@aws-amplify/datastore';
 import { Song } from './models';
 import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 import UploadForm from './components/uploadForm'
-import Audio from './components/audio'
 
 function App() {
     const [songs, setSongs] = useState([]);
@@ -22,7 +21,7 @@ function App() {
             <AmplifySignOut />
             <UploadForm />
             {songs.map(song => (
-                <Audio song={song} />
+                <h1>{song.title}</h1>
             ))}
         </div>
     );
