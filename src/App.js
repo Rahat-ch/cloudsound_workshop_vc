@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './App.css';
 import { DataStore } from '@aws-amplify/datastore';
 import { Song } from './models';
+import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     return (
         <div className="App">
             <h1>The Cloud Sound</h1>
+            <AmplifySignOut />
             {songs.map(song => (
                 <h2>{song.title}</h2>
             ))}
@@ -24,4 +26,4 @@ function App() {
     );
 }
 
-export default App;
+export default withAuthenticator(App);
