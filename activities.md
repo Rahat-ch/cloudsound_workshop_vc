@@ -22,13 +22,19 @@ Amplify.configure(awsExports);
 
 Activity 3
 
+1. Configure Authentication in the Amplify Admin UI with a simple username/password or email/password flow. 
+2. Implement the withAuthenticator higher order component into the app
+3. Sign up for an account!
+
+Activity 4
+
 1. Create a form component that allows a user to enter a title, artist and upload an mp3
 2. Following the instructions from the demo and the Amplify Admin UI - create an S3 bucket that users can upload their music to
 3. Connect the S3 bucket to your form and create your own song entry
 4. Verify in the Admin UI Content page that your song exists 
 5. Delete any songs on the content page that do not have an actual mp3
 
-Activity 4
+Activity 5
 
 1. Create an audio component and import react audio player
 2. The component should take a title, mp3, and artist prop to display all song information
