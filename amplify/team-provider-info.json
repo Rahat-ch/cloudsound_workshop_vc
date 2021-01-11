@@ -10,6 +10,11 @@
       "StackName": "amplify-cloudsoundmain-staging-232410",
       "StackId": "arn:aws:cloudformation:us-east-1:177338230393:stack/amplify-cloudsoundmain-staging-232410/f28036d0-539a-11eb-b7a2-0e953a659b8b",
       "AmplifyAppId": "d2b86iiwlx2upe"
+    },
+    "categories": {
+      "auth": {
+        "cloudsoundmain": {}
+      }
     }
   }
 }
