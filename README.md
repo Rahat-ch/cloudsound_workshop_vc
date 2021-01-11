@@ -2,10 +2,23 @@
 
 This is repository containing the code for The Amplify Full Stack Workshop at Virtual Coffee. The starting point is the main branch and the final app can be seen on the 'finished' branch. Each branch will have instructions for what you need to accomplish throughout the workshop in the activities.md file. 
 
-This workshop requires you to have the Amplify CLI installed. Use the script below to quickly install it:
+This workshop requires you to have the Amplify CLI installed. Use any of the below scripts to install it to your local machine. 
+
+Install via NPM:
 
 ```
+npm install -g @aws-amplify/cli
+```
+
+Install via curl mac/linux:
+```
 curl -sL https://aws-amplify.github.io/amplify-cli/install | bash && $SHELL
+```
+
+Install via curl windows:
+
+```
+curl -sL https://aws-amplify.github.io/amplify-cli/install-win -o install.cmd && install.cmd
 ```
 
 ## Getting Started
