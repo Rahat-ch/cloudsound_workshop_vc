@@ -18,6 +18,11 @@ import Amplify from "aws-amplify";
 import awsExports from "./aws-exports";
 Amplify.configure(awsExports);
 ```
+3. Run the following command in your terminal to generate the models locally:
+```
+amplify codegen models
+
+```
 3. In App.js use DataStore in order to query for all the titles of the songs and display them on the page. 
 
 Activity 3
