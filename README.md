@@ -30,7 +30,7 @@ activity4Solved - solution for activity 4
 
 ## Getting Started
 
-Fork this repository and then clone it into your local machine.
+Clone this Repository into your local machine
 
 ### `npm install`
 
